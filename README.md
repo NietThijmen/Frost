@@ -1,6 +1,6 @@
 # TODO
-- [ ] Implement organisations and organisation selection based on cookies
-- [ ] Implement user authentication
+- [x] Implement organisations and organisation selection based on cookies
+- [x] Implement user authentication
 - [ ] implement user invites
 
 - [ ] Server creation (using external API's like hetzner)
@@ -16,7 +16,7 @@
 - [ ] Load balancing (automatic nginx configuration, automatic server creation, request monitoring from nginx)
 - [ ] SSL certificates (automatic creation, automatic renewal, automatic installation)
 
-- [ ] Server types (database, redis, web, load balancer, meilisearch)
+- [x] Server types (database, redis, web, load balancer, meilisearch)
 - [ ] Project shared storage (S3 mount [library](https://github.com/s3fs-fuse/s3fs-fuse))
 
 - [ ] Audit logs (who did what, when)
