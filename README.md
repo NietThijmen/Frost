@@ -3,7 +3,7 @@
 - [x] Implement user authentication
 - [ ] implement user invites
 
-- [ ] Server creation (using external API's like hetzner)
+- [x] Server creation (using external API's like hetzner)
 - [ ] Server management (start, stop, restart, delete)
 - [ ] Server monitoring (CPU, RAM, Disk, Network)
 - [ ] Server logs (nginx, php, mysql, auth, etc)
