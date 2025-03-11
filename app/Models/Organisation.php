@@ -14,7 +14,12 @@ class Organisation extends Model
 
     protected $fillable = [
         'name',
-        'slug'
+        'slug',
+        'authData'
+    ];
+
+    protected $casts = [
+        'authData' => 'encrypted:array' // this will hold stuff like API keys, etc.
     ];
 
     public function users(): BelongsToMany

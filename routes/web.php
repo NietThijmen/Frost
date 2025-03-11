@@ -25,5 +25,10 @@ Route::middleware(['auth'])->prefix('/organisation')->group(function () {
 });
 
 
+Route::middleware(['auth'])->prefix('/servers')->group(function() {
+    Route::get('/create', \App\Livewire\Pages\Server\ServerCreation::class)->name('servers.create');
+    Route::get('/provider-settings', \App\Livewire\Pages\Server\ProviderSettings::class)->name('servers.provider-settings');
+});
+
 
 require __DIR__.'/auth.php';

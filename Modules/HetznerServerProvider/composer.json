@@ -1,0 +1,26 @@
+{
+    "name": "nwidart/hetznerserverprovider",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HetznerServerProvider\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "require": {
+        "lkdevelopment/hetzner-cloud-php-sdk": "^2.7"
+    }
+}

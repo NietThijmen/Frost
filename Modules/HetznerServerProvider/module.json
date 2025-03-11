@@ -1,0 +1,11 @@
+{
+    "name": "HetznerServerProvider",
+    "alias": "hetznerserverprovider",
+    "description": "A server provider for Hetzner",
+    "keywords": [],
+    "priority": 0,
+    "files": [
+        "registerProvider.php",
+        "registerProviderSettings.php"
+    ]
+}
